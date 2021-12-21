@@ -1,0 +1,32 @@
+.fondo{
+    background: url(../img/fondo.gif) no-repeat center;
+    background-size: cover;
+    background-position: 100% 90%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.float{
+	position:fixed;
+	width:90px;
+	height:90px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.abajo{
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
